@@ -1,0 +1,50 @@
+* {
+    margin: 0PX;
+    padding: 0PX;
+}
+
+.heading {
+    background-color: aqua;
+    color: blue;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 40%;
+    text-align: center;
+    text-shadow: black 1px -6px;
+    text-transform: lowercase;
+    transform: rotateX(150deg);
+}
+
+#tdtable1 {
+    border: 8px solid;
+    border-color: blue;
+    border-radius: 10%;
+    padding: 15px;
+    margin: auto;
+    background-color: purple;
+}
+
+.tdata {
+    border: 8px double blue;
+    padding: 25px;
+    background-color: pink;
+}
+
+.head {
+    border: 8px dotted;
+    margin: 25px;
+    background-color: chartreuse;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 3s;
+    transition-delay: 2s;
+}
+
+div:hover {
+    width: 100%;
+}
